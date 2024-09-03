@@ -1,5 +1,5 @@
 # syntaxdocker/dockerfile:1
-# webhook 
+# webhook tested
 FROM node:22-alpine
 WORKDIR /app
 COPY . .
