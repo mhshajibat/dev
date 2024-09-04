@@ -2,7 +2,7 @@
 # webhook test
 
 FROM node:22-alpine
-WORKDIR /app
+WORKDIR /getting-started-app
 COPY . .
 RUN yarn install --production
 CMD ["node", "src/index.js"]
